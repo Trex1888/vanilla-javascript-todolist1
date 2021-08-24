@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: hsl(235, 21%, 11%);
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 350px;
+  z-index: -1;
+}
+
+.background-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 30px;
+  margin-top: 100px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  color: white;
+  letter-spacing: 10px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.new-todo {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background-color: hsl(235, 24%, 19%);
+  margin-top: 50px;
+  border-radius: 6px;
+}
+
+.check {
+  display: flex;
+  flex-basis: 90px;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+}
+
+.new-todo-input {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
