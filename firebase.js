@@ -1,3 +1,5 @@
+// const firebase = "firebase/firestore";
+
 const firebaseConfig = {
   apiKey: "AIzaSyB550-PlvBV6TmEZlZfJEAb2p9zNpHWgoA",
   authDomain: "todolist1-d2b52.firebaseapp.com",

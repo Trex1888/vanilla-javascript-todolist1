@@ -85,13 +85,9 @@ body {
   visibility: visible;
 }
 
-.check-mark:hover {
-  border-color: linear-gradient(135deg, #55ddff 0%, #c058f3 100%);
-  background: linear-gradient(135deg, #55ddff 0%, #c058f3 100%);
-}
-
+.check-mark:hover,
 .check-mark.checked {
-  background-color: pink;
+  border-color: linear-gradient(135deg, #55ddff 0%, #c058f3 100%);
   background: linear-gradient(135deg, #55ddff 0%, #c058f3 100%);
 }
 
